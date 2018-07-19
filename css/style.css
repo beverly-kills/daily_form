@@ -1,0 +1,83 @@
+html {
+	height:100%;
+}
+
+body{
+	background: /*-moz-linear-gradient(45deg, rgba(255,78,43,1) 0%, rgba(237,52,86,1) 52%, rgba(222,31,119,1) 100%),
+				-webkit-linear-gradient(45deg, rgba(255,78,43,1) 0%, rgba(237,52,86,1) 52%, rgba(222,31,119,1) 100%),
+				-o-linear-gradient(45deg, rgba(255,78,43,1) 0%, rgba(237,52,86,1) 52%, rgba(222,31,119,1) 100%),
+				-ms-linear-gradient(45deg, rgba(255,78,43,1) 0%, rgba(237,52,86,1) 52%, rgba(222,31,119,1) 100%),*/
+				linear-gradient(45deg, rgba(255,78,43,1) 0%, rgba(237,52,86,1) 52%, rgba(222,31,119,1) 100%);
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4e2b', endColorstr='#de1f77', GradientType=1 );*/
+}
+
+.wrap{
+	box-sizing: border-box;
+	width: 460px;
+	height: 470px;
+	margin:70px auto;
+	padding: 30px;
+	border-radius: 4px;
+	background-color:  #ffffff;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.text{
+	font: 400 13px/20px Arial, sans-serif;
+	color: #797b7f;
+}
+
+.link{
+	color: #ea355a;
+	text-decoration: none;
+}
+
+.header{
+	margin-bottom: 30px;
+}
+
+.header__title{
+	margin: 0;
+	font: 700 24px/20px Arial, sans-serif;
+	color:  #1b1c1d;
+}
+
+.header__title:before{
+	content: url(../img/sign_up_icon.svg);
+	margin-right: 10px;
+}
+
+.form{
+	border: none;
+	padding: 0;
+	margin: 0 0 25px;
+}
+
+.form__field{
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	background-color:  #f0f0f0;
+	color: #797b7f;
+	font: 400 14px/20px Arial, sans-serif;
+}
+
+.form__button{
+	border: none;
+	border-radius: 4px;
+	background-color:  #ea355a;
+	box-shadow: 0px 3px 0px 0px #bd1962;
+	color: #fff;
+	font: 700 18px/20px Arial, sans-serif;
+}
+
+.grid{
+	display: grid;
+	grid-template: repeat(3, 40px) 50px / 192px 192px;
+	grid-gap: 15px;
+	width: 400px;
+}
+
+.grid__long_input{
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
